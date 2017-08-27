@@ -30,11 +30,11 @@ int main(void)
  "05886116467109405077541002256983155200055935729725"
  "71636269561882670428252483600823257530420752963450"; 
  
- int max_val = 1; 
- for(int i = 0; i < big_num.size() - 14; i++) 
+ long max_val = 1; 
+ for(int i = 0; i < big_num.size() - 12; i++) 
  {
- 	int prod = 1;  
- 	for(int j = i; j < i + 14; j++) 
+ 	long prod = 1;  
+ 	for(int j = i; j < i + 13; j++) 
  	{
  		prod *= (big_num[j] - '0');  
  		} 
@@ -44,6 +44,4 @@ int main(void)
  cout << max_val << endl; 
  return 0; 
 } 
-
-
 
