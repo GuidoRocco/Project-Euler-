@@ -12,12 +12,6 @@ namespace ConsoleApplication61
 {
     class Program
     {
-        public static int count_digit(BigInteger num)
-        {
-            string long_str = num.ToString();
-            return long_str.Length; 
-        } 
-
         public static void Main(string[] args)
         {
             List<double> pow_list = new List<double>(); 
