@@ -33,7 +33,6 @@ vector<string> create_multiple_string(int num)
 
 int main(void)
 {
-	int value; 
 	vector<string> test_string;
 	for (int i = 1; i < 1000000; i++)
 	{
@@ -48,12 +47,10 @@ int main(void)
 			if (j == 5)
 			{
 				cout << val << endl; 
-				cin >> value; 
 				return 0;
 			}
 		}
 	} 
-	cin >> value; 
 	return 0;
 }
 
